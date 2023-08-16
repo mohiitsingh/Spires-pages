@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    background-color: orange;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.banner p{
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(80, 147, 254);
+    position: relative;
+}
+
+.img-div{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+
+.title{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 60%;
+    float: right;
+    padding: 2rem;
+    color: white;
+}
+
+.card-container{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    background-color: red;
+}
