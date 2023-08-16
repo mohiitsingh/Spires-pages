@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.banner{
+    background-color: orange;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.banner p{
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.resume{
+    background-color: white;
+    padding: 1rem 5vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.resumes-container{
+    padding: 10px 1rem;
+    overflow: auto;
+    scroll-behavior: smooth;
+    /* height: 100rem; */
+}
+
+.resumes-container::-webkit-scrollbar {
+    display: none;
+}
+
+.resume-container{
+    display: inline-flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 40px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px 1rem;
+}
+
+.resume-card{
+    width: 28vw;
+    /* height: 195px; */
+    height: 58rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading{
+    background-color: rgb(72, 66, 58);
+    padding: 20px;
+    font-size: 1rem;
+    color: white;
+}
+
+.tick-div div{
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+
+.points{
+    background-color: aliceblue;
+}
+
+.wrong{
+    background-color: white;
+}
+
+.fa-check{
+    color: green;
+}
+
+.fa-times{
+    color: grey;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.service{
+    margin-top: 1rem;
+    padding: 0 10px;
+}
+
+.service h2{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.service p{
+    margin: 12px 0;
+    font-size: 14px;
+    color: rgb(0, 68, 255);
+}
+
+.pricing{
+    padding: 0 10px;
+}
+
+.p1{
+    color: gray;
+    font-size: 14px;
+}
+
+.pricing a{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.pricing h2{
+    font-weight: normal;
+    font-size: 1.3rem;
+    margin: 5px 0;
+}
+
+.pricing span{
+    font-size: 12px;
+    color: #2f2222;
+}
+
+.p2{
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgb(0, 183, 255);
+    word-spacing: 2px;
+    /* margin-bottom: 1.3rem; */
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    color: white;
+    background-color: orange;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(233, 152, 0);
+}
+
+@media screen and (max-width: 1024px) {
+    .resume-card{
+        width: 38vw;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .resume-card{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .resume-card{
+        width: 75vw;
+    }
+}

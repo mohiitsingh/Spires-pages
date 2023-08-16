@@ -202,6 +202,7 @@ p{
     height: 195px;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
     background-color: white;
+    cursor: pointer;
 }
 
 .resume-img{
@@ -274,6 +275,7 @@ p{
 .job-card{
     /* width: 80%; */
     background-color: white;
+    cursor: pointer;
 }
 
 .job-imgDiv{
