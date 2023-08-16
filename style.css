@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 237, 237);
+}
+
+p{
+    margin: 0;
+}
+
+.banner{
+    background-color: orange;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.banner p{
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.product {
+    position: relative;
+    overflow: hidden;
+    margin-top: -8rem;
+}
+
+.cards-container{
+    /* height: 30vh; */
+
+    padding: 10px 1rem;
+    /* display: flex; */
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.card-div1{
+    background-color: rgba(2, 4, 36, 0.916);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    color: white;
+}
+
+.card-container{
+    display: inline-flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 40px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px 1rem;
+}
+
+.cards-container::-webkit-scrollbar {
+    display: none;
+}
+
+.card{
+    width: 23%;
+    /* height: 400px; */
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.card1:hover .card-img{
+    background-color: rgb(198, 226, 251);
+}
+
+.card-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.img-div{
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+}
+
+
+
+.tag{
+    position: absolute;
+    background-color: black;
+    top: 3px;
+    right: 0;
+    font-size: 12px;
+    padding: 2px 3px;
+    color: white;
+}
+
+.card-title{
+    width: 100%;
+    color: black;
+    padding: 10px;
+}
+
+.title{
+    font-size: 12px;
+    letter-spacing: 1px;
+    /* margin-bottom: 0.5rem; */
+}
+
+.card-title h5{
+    color: #333333;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.card-title .para{
+    font-size: 12px;
+    line-height: 1.3;
+    color: rgb(73, 73, 73);
+}
+
+
+.card-description{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    /* background-color: rebeccapurple; */
+}
+
+.card-description div{
+    padding: 0;
+    margin: 0;
+    /* background-color: rebeccapurple; */
+}
+
+.card-description div p{
+    font-size: 13px;
+    margin: 0;
+}
+
+.card-description div p span{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: normal;
+}
+
+.card-description div a{
+    font-size: 13px;
+    text-decoration: none;
+    color: orangered;
+}
+
+.card2:hover .card-img{
+    background-color: lightcoral;
+}
+
+.resume{
+    background-color: white;
+    padding: 1rem 5vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.resumes-container{
+    padding: 10px 1rem;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.resumes-container::-webkit-scrollbar {
+    display: none;
+}
+
+.resume-container{
+    display: inline-flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 40px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px 1rem;
+}
+
+.resume-div1{
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.resume-div1 p{
+    font-weight: 600;
+}
+
+.resume-card{
+    width: 24vw;
+    height: 195px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+.resume-img{
+    position: relative;
+}
+
+.resume-color{
+    background-color: rgb(80, 147, 254);
+    width: 100%;
+    height: 120px;
+}
+
+.resume-tag{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: white;
+}
+
+.resume-tag p{
+    font-size: 13px;
+    margin-bottom: 0.5rem;
+}
+
+.resume-tag h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.resume-desc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+    padding: 10px;
+}
+
+.resume-desc p{
+    font-size: 12px;
+    color: #5e5c5c;
+}
+
+.resume-desc h6{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.resume-desc a{
+    text-decoration: none;  
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.resume-card2{
+    background-color: rgb(80, 237, 254);
+}
+
+.jobs{
+    padding: 1rem;
+}
+
+
+.jobs-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 80px;
+}
+
+.job-card{
+    /* width: 80%; */
+    background-color: white;
+}
+
+.job-imgDiv{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.job-imgDiv img{
+    width: 100%;
+    height: 100%;
+}
+
+.job-desc{
+    padding: 15px;
+}
+
+.job-desc h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.job-desc p{
+    font-size: 14px;
+}
+
+.fas{
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    font-size: 8px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.job-price{
+    padding: 15px;
+}
+
+.job-price p{
+    font-size: 13px;
+    color: #5e5c5c;
+}
+
+.job-price h6{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.job-price a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}

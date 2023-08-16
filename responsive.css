@@ -1,0 +1,38 @@
+@media screen and (max-width: 1024px) {
+    .card{
+        width: 28vw;
+    }
+
+    .resume-card{
+        width: 28vw;
+    }
+
+}
+
+@media screen and (max-width: 834px) {
+    .card{
+        width: 40vw;
+    }
+
+    .resume-card{
+        width: 40vw;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .jobs-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .card{
+        width: 70vw;
+    }
+
+    .resume-card{
+        width: 70vw;
+    }
+
+}
