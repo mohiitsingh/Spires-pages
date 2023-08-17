@@ -308,6 +308,89 @@ body{
     color: rgb(0, 149, 255);
 }
 
+.section5{
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.section5-div{
+    border: 0.1px solid gainsboro;
+    border-radius: 8px;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section5-innerdiv{
+    padding: 1rem;
+}
+
+.section5-img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.section5-img img{
+    width: 80%;
+}
+
+.section6{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section7{
+    background-color: aliceblue;
+    padding: 2rem 4rem;
+    margin: 3rem 0;
+}
+
+.section7 h4{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section7-div{
+    display: flex;
+}
+
+.section7 .section7-innerdiv{
+    width: 40%;
+    background-color: white;
+    padding: 1.5rem;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.section7-innerdiv h6{
+    font-weight: bold;
+}
+
+.section7-innerdiv>p{
+    font-size: 15px;
+}
+
+.section7-innerdiv span{
+    font-size: 14px;
+}
+
+.last-para{
+    margin-top: 1.5rem;
+}
+
+.last-para a{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 136, 255);
+}
+
+.last-para i{
+    color: rgb(0, 136, 255);
+}
+
 
 @media screen and (max-width: 1024px) {
     .card-container{
@@ -329,6 +412,14 @@ body{
 
     .section3 p{
         margin: 10px 0;
+    }
+
+    .section5-div{
+        width: 90%;
+    }
+
+    .section6{
+        width: 90%;
     }
 
 }
@@ -425,6 +516,18 @@ body{
         margin: 0 auto;
     }
 
+    .section5-div{
+        flex-direction: column;
+    }
+
+    .section7-div{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section7 .section7-innerdiv{
+        width: 90%;;
+    }
 
 }
 
@@ -448,6 +551,10 @@ body{
 
     .div-flex{
         flex-direction: column;
+    }
+
+    .section7 .section7-innerdiv{
+        width: 100%;;
     }
 
 }
