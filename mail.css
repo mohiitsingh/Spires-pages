@@ -148,11 +148,189 @@ body{
     font-weight: bold;
 }
 
+.section1{
+    outline: 0.1px solid rgba(213, 213, 213, 0.674);
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.div-flex{
+    display: flex;
+    gap: 20px;
+}
+
+.circle{
+    width: 200px;
+    border: 1px solid black;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.circle i{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.circle h5{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.circle p{
+    font-size: 14px;
+}
+
+.section2{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section2 h4{
+    text-align: center;
+    line-height: 2;
+}
+
+.advantage-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 1rem; */
+    /* align-items: center; */
+    background-color: whitesmoke;
+}
+
+
+.flexx{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 1px 10px;
+}
+
+.flexx2{
+    background-color: wheat;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.flexx h6:nth-child(1){
+    width: 70%;
+}
+
+.flexx h6{
+    width: 15%;
+}
+
+.flexx p:nth-child(1){
+    /* background-color: red; */
+    width: 70%;
+}
+
+.flexx p{
+    width: 15%;
+}
+
+
+.advantage-box h6{
+    font-weight: bold;
+}
+
+.fa-circle-check{
+    color: green;
+}
+
+.fa-circle-xmark{
+    color: red;
+}
+
+.section3{
+    display: grid;
+    width: 80%;
+    margin: 2rem auto;
+    grid-template-columns: 70% 30%;
+}
+
+.section3 div:nth-child(1){
+    display: grid;
+    align-self: center;;
+}
+
+.section3 p{
+    margin: 20px 0;
+}
+
+.section3 p span{
+    color: white;
+    font-size: 10px;
+    background-color: rgb(0, 153, 255);
+    padding: 5px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.section4{
+    background-color: aliceblue;
+    padding: 2rem 0 2rem 8rem;
+}
+
+.section4 h3{
+    margin-bottom: 2rem;
+}
+
+.section4-div{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.section4-img{
+    width: 50%;
+}
+
+.flex1{
+    display: flex;
+    /* background-color: rebeccapurple; */
+    gap: 10px;
+}
+
+.flex1 h6{
+    font-weight: bold;
+}
+
+.right{
+    color: rgb(0, 149, 255);
+}
+
+
 @media screen and (max-width: 1024px) {
     .card-container{
         width: 90%;
         margin-top: -4rem;
     }
+
+    .section1{
+        width: 90%;
+    }
+
+    .section2{
+        width: 90%;
+    }
+
+    .section3{
+        width: 90%;
+    }
+
+    .section3 p{
+        margin: 10px 0;
+    }
+
 }
 
 @media screen and (max-width: 834px) {
@@ -189,6 +367,19 @@ body{
         margin: 1rem auto;
     }
 
+    .section1{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .section4{
+        padding: 2rem;
+    }
+
+    .section4-img{
+        width: 80%;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -204,6 +395,34 @@ body{
 
     .img-div{
         width: 50%;
+    }
+
+    .flexx p:nth-child(1){
+        width: 75%;
+    }
+
+    .flexx p{
+        width: 10%;
+    }
+
+    .section3{
+        grid-template-columns: 1fr;
+    }
+
+    .section3 div:nth-child(2){
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .section4-div{
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding: 2rem;
+    }
+
+    .section4-img{
+        width: 50%;
+        margin: 0 auto;
     }
 
 
@@ -225,6 +444,10 @@ body{
 
     .card-container{
         margin-top: -5rem;
+    }
+
+    .div-flex{
+        flex-direction: column;
     }
 
 }
