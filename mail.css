@@ -11,7 +11,8 @@ body{
 .banner{
     background-color: orange;
     text-align: center;
-    padding: 12px 0;
+    padding: 15px 0;
+    color: white;
 }
 
 .banner p{
@@ -270,9 +271,10 @@ body{
 .section3 p span{
     color: white;
     font-size: 10px;
-    background-color: rgb(0, 153, 255);
-    padding: 5px;
-    border-radius: 50%;
+    /* background-color: rgb(0, 153, 255); */
+    background-color: orangered;
+    padding: 5px 8px;
+    border-radius: 80%;
     font-weight: bold;
 }
 
@@ -305,7 +307,8 @@ body{
 }
 
 .right{
-    color: rgb(0, 149, 255);
+    /* color: rgb(0, 149, 255); */
+    color: orangered;
 }
 
 .section5{
@@ -384,11 +387,13 @@ body{
     font-size: 14px;
     text-decoration: none;
     font-weight: bold;
-    color: rgb(0, 136, 255);
+    /* color: rgb(0, 136, 255); */
+    color: orangered;
 }
 
 .last-para i{
-    color: rgb(0, 136, 255);
+    /* color: rgb(0, 136, 255); */
+    color: orangered;
 }
 
 

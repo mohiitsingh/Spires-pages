@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    background-color: orange;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+.banner p{
+    font-weight: 600;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.product {
+    position: relative;
+    overflow: hidden;
+    margin-top: -8rem;
+}
+
+.cards-container{
+    /* height: 30vh; */
+
+    padding: 10px 1rem;
+    /* display: flex; */
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.card-div1{
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    color: white;
+    color: black;
+}
+
+.card-container{
+    background-color: white;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.cards-container::-webkit-scrollbar {
+    display: none;
+}
+
+.flex{
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    border-bottom: 0.1px solid gainsboro;
+    padding: 0px 10px ;
+}
+
+.card-container .flex:last-child{
+    border: none;
+}
+
+.div1{
+    border-right: 0.1px solid gainsboro;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-right: 0.1px solid gainsboro;
+}
+
+.flex2:last-child{
+    border: none;
+}
+
+.flex2 h5{
+    font-size: 1rem;
+}
+
+.flex3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.flex3 a{
+    font-size: 0.8rem;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.flex3 p{
+    font-weight: bold;
+}
+
+.off{
+    font-size: 0.9rem;
+}
+
+.btn-div button{
+    padding: 8px 25px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.btn-div button:hover{
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.flex2 span{
+    font-size: 0.7rem;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+
+.center{
+    text-align: center;
+    border-right: 0.1px solid gainsboro;
+    padding: 15px 20px;
+}
+
+.center:last-child{
+    border: none;
+}
+
+.fa-solid{
+    color: green;
+}
+
+.fa-regular{
+    color: red;
+}
+
+.flex4{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    text-align: left;
+    /* padding: 5px 2px; */
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5px;
+}
+
+.flex4 span{
+    font-size: 12px;
+}
+
+.flex4 i{
+    font-size: 16px;
+    color: gray;
+    opacity: 0.6;
+}
+
+.flex5{
+    border-right: 0.1px solid  gainsboro;
+}
+
+p{
+    padding: 15px 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner p{
+        line-height: 1;
+    }
+
+    .card-container{
+        width: 150%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .card-container{
+        width: 300%;
+    }
+}

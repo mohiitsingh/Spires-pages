@@ -12,12 +12,13 @@ body{
 .banner{
     background-color: orange;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
+    color: white;
 }
 
 .banner p{
-    font-weight: 500;
-    line-height: 1.4;
+    font-weight: 600;
+    line-height: 1.7;
     margin: 0;
 }
 
@@ -51,7 +52,6 @@ body{
 
 .resume-card{
     width: 28vw;
-    /* height: 195px; */
     height: 58rem;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
     background-color: white;
@@ -88,6 +88,7 @@ body{
 
 .fa-times{
     color: grey;
+    color: red;
 }
 
 .flex{
@@ -110,6 +111,7 @@ body{
     margin: 12px 0;
     font-size: 14px;
     color: rgb(0, 68, 255);
+    color: orangered;
 }
 
 .pricing{
@@ -143,6 +145,7 @@ body{
     color: rgb(0, 183, 255);
     word-spacing: 2px;
     /* margin-bottom: 1.3rem; */
+    font-weight: bold;
 }
 
 button{
